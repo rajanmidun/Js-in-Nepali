@@ -1,0 +1,13 @@
+Js is a programming language
+
+Js is
+  a:weakly typed language
+  let a=3;
+  a="Sfddsfsf"
+  Node js
+  b: object oriented
+    let info={
+      name:"Rajan",
+      age:23
+    }
+  c:versatile language
