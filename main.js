@@ -6,13 +6,37 @@
 // d: switch
 
 
-// a: if else
+// a: if else if
 
-const age = 34;
+let day = 5;
 
-if (age >= 18) {
-  console.log("You are eligible for voting");
+switch (day) {
+  case 1:
+    console.log("Sunday");
+    break;
+
+  case 2:
+    console.log("Monday");
+    break;
+
+  case 3:
+    console.log("Tuesday");
+    break;
+
+  case 4:
+    console.log("Wednesday");
+    break;
+
+  case 5:
+    console.log("Thursday");
+    break;
+
+  case 6:
+    console.log("Sunday");
+    break;
+
+  default:
+    console.log("Saturday");
+    break;
 }
-else {
-  console.log("You are not eligible for voting");
-}
+
