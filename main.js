@@ -1,7 +1,8 @@
-//while loop
+//do while loop
 
-let i = 0;
-while (i < 10) {
-  console.log(i);
+let i = 1;
+
+do {
+  console.log("12 * " + i + " = " + (12 * i));  //12*1=12
   i++;
-}
+} while (i <= 10);
