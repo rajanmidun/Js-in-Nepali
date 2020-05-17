@@ -1,46 +1,53 @@
-//Arithmetic operator
+//Comparision operator
+// == equal to
+// === equal value and equal type
+// != not equal 
+// !== not equal value and not equal type
+// > greater than 
+// < less than 
+// greater than or equal to
+// <= less than or equal to
 
-// Addition +
-//Subtraction -
-//Multiplication *
-//Division /
-//Remainder %
-// Exponentiation **
-//Increament ++
-//Decrement --
+let first = "12";
+let second = 12;
 
-let a = 6;
-let b = 5;
+// if (first === second) {
+//   console.log("yes");
+// }
+// else {
+//   console.log("No");
+// }
 
-console.log("Addition " + (a + b));
-console.log("Subtraction " + (a - b));
-console.log("Multiplication " + (a * b));
-console.log("Division " + (a / b));
-console.log("Remainder " + (a % b));
-console.log("Exponentiation " + (a ** b));// a^b 6^5;
+// if (first !== second) {  //12!==12
+//   console.log("yes");
+// }
+// else {
+//   console.log("No");
+// }
 
-//Increment ++
-// let c = a++; //post increment => c=6 a=7
-// let c = ++a //pre increment =>c=7 a=7  
-// console.log(a, c);
-
-
-//Increment --
-// let c = a--; //post increment => c=6 a=5
-let c = --a //pre increment =>c=5 a=5  
-console.log(a, c);
+if (first <= second) {
+  console.log("yes");
+}
+else {
+  console.log("No");
+}
 
 
+//Logical operator
+
+// && logical and  //all condition must be true
+// || logical or   //one or more condtion must be true
+// ! logical not
 
 
-//Assignment operator
-let y = 5;
-let z = y; //z=5;
+let a = 12;
+let b = 9;
 
-// y += 5;// y=y+5=10
-// y -= 5;// y=y-5=0
-// y *= 5;// y=y*5=25
-// y /= 5;// y=y/5=1
-// y %= 5;// y=y%5=0
-y **= 5;// y=y^5=3125
-console.log(y);
+if (!(a % 3 === 1)) { //false=true
+  console.log("Yes it is divisible by 3");
+}
+else {
+  console.log("No");
+}
+
+
