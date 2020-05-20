@@ -1,15 +1,17 @@
-//global and local scope in js
+//function declartion
+information();
 
-let address = "Kathmandu"; //global scope
-
-
-function information(name, age) {
-  // let address = "Kathmandu"; //local scope
-  console.log("From function " + address);
+function information() {
+  console.log("Hello everyone my name is Rajan");
 }
 
-information("Rajan", 23);
+//Function Expression
+// info();
 
-console.log("Outside the function " + address);
+const info = function () {
+  console.log("From function expression");
+};
 
+info();
 
+//Hoisting
