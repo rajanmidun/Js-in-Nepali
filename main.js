@@ -1,10 +1,15 @@
-//function
+//global and local scope in js
 
-function add(a = 12, b = 12) {
-  const sum = a + b;
-  return "The sum is " + sum;
+let address = "Kathmandu"; //global scope
+
+
+function information(name, age) {
+  // let address = "Kathmandu"; //local scope
+  console.log("From function " + address);
 }
 
-const result1 = add(12, 14);
-console.log(result1);
-console.log(add(13, 14));
+information("Rajan", 23);
+
+console.log("Outside the function " + address);
+
+
