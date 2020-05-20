@@ -1,9 +1,12 @@
-//function
+//parameter function
 
-function message(){
-console.log("Hello from function")
+function add(a, b) {
+  const sum = a + b;
+  console.log("Sum is "+sum);
 }
 
-message();
-message();
-message();
+add(12,14);
+add(13,14);
+add(14,14);
+add(15,14);
+add(16,14);
