@@ -1,15 +1,17 @@
-//global and local scope in js
+//template string/template literal
 
-let address = "Kathmandu"; //global scope
+let userName = "Rajan";
 
+// Normal js
+let name = "Hello Rajan\nI am 23";
+let userIntro = "hello " + userName;
+console.log(userIntro);
+console.log(name);
 
-function information(name, age) {
-  // let address = "Kathmandu"; //local scope
-  console.log("From function " + address);
-}
+//ECMA Script
+let name1 = `Hello Rajan
+I am 23`;
+console.log(name1);
 
-information("Rajan", 23);
-
-console.log("Outside the function " + address);
-
-
+let userIntro1 = `Hello ${userName}`;
+console.log(userIntro1);
