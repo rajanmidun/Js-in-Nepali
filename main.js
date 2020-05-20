@@ -1,17 +1,29 @@
-//function declartion
-information();
+// //function declartion
+// information();
 
-function information() {
-  console.log("Hello everyone my name is Rajan");
-}
+// function information() {
+//   console.log("Hello everyone my name is Rajan");
+// }
 
-//Function Expression
+// //Function Expression
 // info();
 
-const info = function () {
-  console.log("From function expression");
-};
-
-info();
+// const info = function () {
+//   console.log("From function expression");
+// };
 
 //Hoisting
+
+x = 34;
+console.log(x);
+
+let x;
+
+let y = 45; //hosting doesnot work in
+            // a: intialized value
+            // b: let and const keyword
+
+
+
+
+
