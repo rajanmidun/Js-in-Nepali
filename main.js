@@ -1,12 +1,10 @@
-//parameter function
+//function
 
-function add(a, b) {
+function add(a = 12, b = 12) {
   const sum = a + b;
-  console.log("Sum is "+sum);
+  return "The sum is " + sum;
 }
 
-add(12,14);
-add(13,14);
-add(14,14);
-add(15,14);
-add(16,14);
+const result1 = add(12, 14);
+console.log(result1);
+console.log(add(13, 14));
