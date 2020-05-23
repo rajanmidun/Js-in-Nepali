@@ -1,16 +1,11 @@
-// const info = function (message) {
-//   return `Hello ${message}`
-// };
+//forEach in js
+const rollNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
-// const result = info("Rajan");
-// console.log(result);
+// for (let i = 0; i < rollNumbers.length; i++) {  //length=20
+//   console.log(rollNumbers[i]);
+// }
 
-//Arrow function 
-
-const info = (name, age) => {
-  const info = `Hello ${name}`
-  return info;
-}
-
-const result = info("Rajan");
-console.log(result);
+//foreach
+rollNumbers.forEach(function (rollNumber) {
+  console.log(rollNumber);
+})
