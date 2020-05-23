@@ -1,29 +1,16 @@
-// //function declartion
-// information();
-
-// function information() {
-//   console.log("Hello everyone my name is Rajan");
-// }
-
-// //Function Expression
-// info();
-
-// const info = function () {
-//   console.log("From function expression");
+// const info = function (message) {
+//   return `Hello ${message}`
 // };
 
-//Hoisting
+// const result = info("Rajan");
+// console.log(result);
 
-x = 34;
-console.log(x);
+//Arrow function 
 
-let x;
+const info = (name, age) => {
+  const info = `Hello ${name}`
+  return info;
+}
 
-let y = 45; //hosting doesnot work in
-            // a: intialized value
-            // b: let and const keyword
-
-
-
-
-
+const result = info("Rajan");
+console.log(result);
