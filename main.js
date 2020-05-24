@@ -1,16 +1,7 @@
-//sort() method in js
+//find() method in js
 
 const numbers = [21, 22, 13, 44, 25, 36, 57, 98];
 
-numbers.sort(); //
-numbers.reverse();
+const result = numbers.find(number => number > 50);
 
-console.log(numbers);
-
-const names = ["suraj", 'tashi', 'firoj', 'pawan', 'pasang'];
-
-names.sort();
-names.reverse();
-
-
-console.log(names);
+console.log(result);
