@@ -1,7 +1,12 @@
-//map in js
-const salaries = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+//reduce method in js
 
-const newSalaries = salaries.reduce(salary => salary + 5);
+//Things to know
+//a : reduce() method reduce the array data into a single value
+//b: syntax:=> array.reduce((total,currentValue, index, array)=>{},initialValue);
 
-console.log(`Old array ${salaries}`)
-console.log(`New array ${newSalaries}`)
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+const result = numbers.reduce((total, number) => total += number, 0);//at first total=0
+
+console.log(result);
