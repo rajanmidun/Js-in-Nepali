@@ -1,7 +1,16 @@
-//find() method in js
+//object literal
 
-const numbers = [21, 22, 13, 44, 25, 36, 57, 98];
+let user = {
+  name: "Ram",
+  address: "Kathmandu"
+};
 
-const result = numbers.find(number => number > 50);
+console.log(user.name);
+user.name = "Rajan";
 
-console.log(result);
+console.log(user.name);
+console.log(user.address);
+
+
+//another way
+console.log(user['name']);
