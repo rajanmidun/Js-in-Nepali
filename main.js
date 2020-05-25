@@ -2,15 +2,15 @@
 
 let user = {
   name: "Ram",
-  address: "Kathmandu"
+  address: "Kathmandu",
+  login: function () {
+    console.log(this.name);
+    console.log("I am logged in ");
+  },
+//   login: () => {
+//     console.log(this.name);
+//     console.log("I am logged in ");
+//   }
 };
 
-console.log(user.name);
-user.name = "Rajan";
-
-console.log(user.name);
-console.log(user.address);
-
-
-//another way
-console.log(user['name']);
+user.login();
