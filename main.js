@@ -1,7 +1,14 @@
-//find() method in js
+//object in js
 
-const numbers = [21, 22, 13, 44, 25, 36, 57, 98];
+//is a collection of properties
+// js object is a variable too but it can store many values
 
-const result = numbers.find(number => number > 50);
 
-console.log(result);
+
+var name = "Rajan"
+var address = "Kathmandu"
+
+
+let object = {
+  name: "Rajan",
+}
