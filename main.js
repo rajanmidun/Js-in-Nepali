@@ -1,16 +1,18 @@
-//object literal
+// object inside array
 
-let user = {
-  name: "Ram",
-  address: "Kathmandu",
-  login: function () {
-    console.log(this.name);
-    console.log("I am logged in ");
-  },
-//   login: () => {
-//     console.log(this.name);
-//     console.log("I am logged in ");
-//   }
-};
+const numbers = [1, 2, 3, 4, 5, 6, 5, 7];
 
-user.login();
+var user = {
+  firstname: "Raghav",
+  lastName: "Shrestha",
+  address: "Kathmandu"
+}
+
+var users = [
+  { firstname: "Raghav", lastName: "Shrestha" },
+  { firstname: "Suraj", lastName: "Lohani" }
+]
+
+users.forEach(user => {
+  console.log(user.firstname);
+})
