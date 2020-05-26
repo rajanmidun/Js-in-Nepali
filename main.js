@@ -1,6 +1,6 @@
 // object inside array
 
-const numbers = [1, 2, 3, 4, 5, 6, 5, 7];
+// const numbers = [1, 2, 3, 4, 5, 6, 5, 7];
 
 var user = {
   firstname: "Raghav",
