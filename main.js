@@ -15,4 +15,4 @@ const byClass = document.getElementsByClassName('section');
 
 //to select the element using class
 //it returns all the elements that contain p tag 
-const byClass = document.getElementsByTagName('p');
+const byTag = document.getElementsByTagName('p');
