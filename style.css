@@ -1,0 +1,11 @@
+.primary {
+  color: green;
+  padding: 20px;
+  border: 1px solid green;
+}
+
+.secondary {
+  color: red;
+  padding: 20px;
+  border: 1px solid red;
+}
