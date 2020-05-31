@@ -1,0 +1,20 @@
+ body {
+   background-color: black;
+   height: 90vh;
+ }
+
+ div {
+   min-width: 600px;
+   font-size: 100px;
+   transform: translate(30%, 100%);
+ }
+
+ .hours,
+ .seconds {
+   color: #FB3401;
+ }
+
+ .minutes,
+ .ampm {
+   color: #FEFEFE;
+ }
