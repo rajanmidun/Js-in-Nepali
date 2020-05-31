@@ -1,0 +1,25 @@
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 20px;
+  background-color: #242424;
+  color: #fff;
+  margin-bottom: 9px;
+}
+
+button {
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  background-color: #242424;
+  border: 1px solid #242424;
+  border-radius: 10px;
+  color: #fff;
+}
