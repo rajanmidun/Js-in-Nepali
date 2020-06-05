@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shotcut icon" type="image/png" href="img/icon.png">
+  <title>Todo App</title>
+</head>
+
+<body>
+  <header>
+    <h2>Todo List</h2>
+    <form action="">
+      <input type="text" class="search" placeholder="Search Todo">
+      <i class="fas fa-search search-icon"></i>
+    </form>
+  </header>
+  <main>
+    <section class="section-todolist">
+      <ul>
+        <li>
+          <span>Watching Movies</span>
+          <i class="far fa-trash-alt delete-icon"></i>
+        </li>
+        <li>
+          <span>Drink Coffee</span>
+          <i class="far fa-trash-alt delete-icon"></i>
+        </li>
+        <li>
+          <span>Take a nap</span>
+          <i class="far fa-trash-alt delete-icon"></i>
+        </li>
+      </ul>
+    </section>
+    <section class="section-newtodo">
+      <h3>Add a new todo</h3>
+      <form action="" class="add-todo">
+        <input type="text" class="todo" name="todo" placeholder="add new todo">
+        <i class="fas fa-plus-circle add-icon"></i>
+      </form>
+    </section>
+    <script src='app.js'></script>
+  </main>
+</body>
+
+</html>
